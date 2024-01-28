@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import Images from './Images';
 
-const ProductDisplay = () => {
+const Products = () => {
 
     const [currentImage, setCurrentImage] = useState(Images.product1);
 
@@ -26,4 +26,4 @@ const ProductDisplay = () => {
   )
 }
 
-export default ProductDisplay
+export default Products

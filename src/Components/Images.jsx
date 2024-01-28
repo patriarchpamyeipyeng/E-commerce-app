@@ -10,6 +10,7 @@ const Images =  {
  
     product1: product1,
     thumbnails: [thumbnail1, thumbnail2, thumbnail3, thumbnail4],
+    
   
 }
 

@@ -3,7 +3,8 @@ import './App.css'
 import Nav from './Components/Nav'
 import Body from './Components/Body'
 import Images from './Components/Images'
-import ProductDisplay from './Components/ProductDisplay'
+import Products from './Components/Products'
+
 
 function App(){
 
@@ -12,7 +13,7 @@ function App(){
  <Nav/>
  <hr className="border-gray-300 border-" />
  <Images/>
- <ProductDisplay/>
+ <Products/>
      <Body/>
     </>
   )
