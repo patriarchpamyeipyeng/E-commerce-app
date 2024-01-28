@@ -1,12 +1,13 @@
 import React, {useState} from 'react';
 import Images from './Images';
 
+
 const Products = () => {
 
-    const [currentImage, setCurrentImage] = useState(Images.product1);
+    const [currentImage, setCurrentImage] = useState(Images.producti[0]);
 
-    const handleThumbnailClick = (thumbnail) => {
-        setCurrentImage(thumbnail);
+    const handleThumbnailClick = (index) => {
+        setCurrentImage(Images.producti[index]);
     };
 
   return (
@@ -18,7 +19,7 @@ const Products = () => {
       key={index}
       src={thumbnail} 
       alt={`Thumbnail ${index + 1}`} 
-      onClick={() => handleThumbnailClick(thumbnail)}
+      onClick={() => handleThumbnailClick(index)}
       />
       ))}
       </div>
